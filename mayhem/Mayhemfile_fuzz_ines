@@ -1,0 +1,9 @@
+project: savantenvs/fceux
+target: fuzz_ines
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ines/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ines
+    libfuzzer: true
+    timeout: 10

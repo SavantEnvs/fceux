@@ -1,0 +1,9 @@
+project: savantenvs/fceux
+target: fuzz_savestate
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_savestate/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_savestate
+    libfuzzer: true
+    timeout: 10

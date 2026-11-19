@@ -1,0 +1,4 @@
+S:0000:01:Infinite counter
+SC:0001:7f:02:compare
+:0002:10:plain
+C:0300:ff:00:x

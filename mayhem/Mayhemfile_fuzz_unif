@@ -1,0 +1,9 @@
+project: savantenvs/fceux
+target: fuzz_unif
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_unif/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_unif
+    libfuzzer: true
+    timeout: 10

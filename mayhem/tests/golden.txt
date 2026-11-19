@@ -1,0 +1,19 @@
+rom_md5 7320c8b0fc74c340af3a2ae50e542c64
+rom_mapper 0
+ram_after_60 8920f11a zp=2de13a
+fb_after_60 7b8a09fd
+state_save 1
+state_load 1
+state_roundtrip 704abd53 same
+gg_SXIOPO 1 91d9 ad -1
+gg_AAEAULPA 1 8b03 00 1
+gg_GOSSIP 1 d1dd 14 -1
+m218_0 mapper=218 ram=d9825376 fb=7b8a09fd
+m218_1 mapper=218 ram=d9825376 fb=7b8a09fd
+m218_4 mapper=218 ram=952a20c4 fb=7b8a09fd
+m218_5 mapper=218 ram=952a20c4 fb=7b8a09fd
+m218_8 mapper=218 ram=d9825376 fb=7b8a09fd
+m218_9 mapper=218 ram=d9825376 fb=7b8a09fd
+m218_c mapper=218 ram=952a20c4 fb=7b8a09fd
+m218_d mapper=218 ram=952a20c4 fb=7b8a09fd
+ld65 0 reset nmi

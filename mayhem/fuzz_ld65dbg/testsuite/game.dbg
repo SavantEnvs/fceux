@@ -1,0 +1,11 @@
+version	major=2,minor=0
+info	csym=0,file=1,lib=0,line=0,mod=1,scope=2,seg=2,span=0,sym=3,type=0
+file	id=0,name="main.s",size=100,mtime=0x5E000000,mod=0
+mod	id=0,name="main.o",file=0
+seg	id=0,name="CODE",start=0x00C000,size=0x4000,addrsize=absolute,type=ro,oname="g.nes",ooffs=16
+seg	id=1,name="ZEROPAGE",start=0x000000,size=0x0010,addrsize=zeropage,type=rw
+scope	id=0,name="",mod=0,size=16
+scope	id=1,name="inner",mod=0,type=scope,size=4,parent=0,sym=0
+sym	id=0,name="reset",addrsize=absolute,size=1,scope=0,def=1,val=0xC000,seg=0,type=lab
+sym	id=1,name="nmi",addrsize=absolute,scope=1,def=2,val=0xC100,seg=0,type=lab
+sym	id=2,name="counter",addrsize=zeropage,scope=0,def=3,val=0x0,seg=1,type=lab

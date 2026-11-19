@@ -1,0 +1,46 @@
+version 3
+emuVersion 22020
+rerecordCount 1
+palFlag 0
+romFilename builtin
+romChecksum base64:czHIsPx0w0CvOirlDlQsZA==
+guid 452DE2C3-EF43-2FA9-77AC-0677FC51543B
+fourscore 0
+microphone 0
+port0 1
+port1 1
+port2 0
+FDS 0
+NewPPU 0
+comment author seed
+subtitle 2 hello world
+|1|........|........||
+|0|R.......|........||
+|0|RL......|........||
+|0|RLU.....|........||
+|0|RLUD....|........||
+|0|RLUDT...|........||
+|0|RLUDTS..|........||
+|0|RLUDTSB.|........||
+|0|RLUDTSBA|........||
+|0|........|........||
+|0|R.......|........||
+|0|RL......|........||
+|0|RLU.....|........||
+|0|RLUD....|........||
+|0|RLUDT...|........||
+|0|RLUDTS..|........||
+|0|RLUDTSB.|........||
+|0|RLUDTSBA|........||
+|0|........|........||
+|0|R.......|........||
+|0|RL......|........||
+|0|RLU.....|........||
+|0|RLUD....|........||
+|0|RLUDT...|........||
+|0|RLUDTS..|........||
+|0|RLUDTSB.|........||
+|0|RLUDTSBA|........||
+|0|........|........||
+|0|R.......|........||
+|0|RL......|........||
